@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "index";
+}
+
+<h2></h2>
+
+@using (Html.BeginForm("index", "Exam", FormMethod.Post))
+{ 
+<p>請輸入數字：@Html.TextBox("number")<input type="submit" value="查詢"/></p>
+<p>查詢結果： @ViewBag.Message</p>
+
+}

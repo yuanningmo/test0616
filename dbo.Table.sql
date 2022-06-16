@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[News]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Title] NCHAR(50) NOT NULL, 
+    [Content] NCHAR(500) NOT NULL, 
+    [PublishDate] DATETIME2 NOT NULL
+)
